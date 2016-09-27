@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Save Screencapture from Hulu Video",
+  "description": "This extension saves an image of the current frame playing in a Hulu video.",
+  "version": "1.0",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": [
+      "*://*.hulu.com/watch/*"
+    ],
+    "js": ["capture.js"]
+  }]
+}
