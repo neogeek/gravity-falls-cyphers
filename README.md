@@ -8,7 +8,7 @@ This is my attempt to solve the already solved cyphers found in each episode the
 
 ### Install the Google Chrome Extension
 
-I'll be watching each episode of Gravity Falls on Hulu. Because of this I've included a [Google Chrome Extension](tools/save-screencapture-from-hulu-video.crx) that when installed will capture and save a PNG of the current frame to your desktop.
+I'll be watching each episode of [Gravity Falls on Hulu](http://www.hulu.com/gravity-falls). Because of this I've included a [Google Chrome Extension](tools/save-screencapture-from-hulu-video.crx) that when installed will capture and save a PNG of the current frame to your desktop.
 
 ## Directory Structure
 
