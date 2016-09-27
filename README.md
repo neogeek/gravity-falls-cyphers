@@ -12,15 +12,15 @@ I'll be watching each episode of Gravity Falls on Hulu. Because of this I've inc
 
 ## Directory Structure
 
-### cyphers
+### cyphers/
 
 Contains the (hopefully) solved cyphers and detailed instructions on how they were solved.
 
-### screencaptures/cyphers
+### screencaptures/cyphers/
 
 Contains all of the cyphers found at the end of each episode.
 
-### screencaptures/keys
+### screencaptures/keys/
 
 Contains all of the (possible) cyphers found throughout each episode.
 
